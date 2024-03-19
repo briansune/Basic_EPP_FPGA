@@ -1,0 +1,95 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Mar 20 01:37:48 2024
+| Host         : DESKTOP-4UKJC18 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file epp_basic_control_sets_placed.rpt
+| Design       : epp_basic
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    17 |
+|    Minimum number of control sets                        |    17 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    98 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    17 |
+| >= 0 to < 4        |    13 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1912 |          623 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              12 |            6 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              42 |           24 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+------------------------+------------------------+------------------+----------------+--------------+
+|       Clock Signal       |      Enable Signal     |    Set/Reset Signal    | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------+------------------------+------------------------+------------------+----------------+--------------+
+|  clk_inst0/inst/clk_out1 |                        | sdle_r_i_1_n_0         |                1 |              1 |         1.00 |
+|  clk_inst0/inst/clk_out1 | tmp_data[7]_i_2_n_0    | p_0_in[7]              |                1 |              1 |         1.00 |
+|  clk_inst0/inst/clk_out1 | cnt_a0                 | gdsp_r_i_1_n_0         |                1 |              1 |         1.00 |
+|  clk_inst0/inst/clk_out1 |                        | gdck_r_i_1_n_0         |                2 |              2 |         1.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r             | epp_data_r[1]_i_1_n_0  |                1 |              2 |         2.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[11]_i_1_n_0 |                2 |              2 |         1.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[13]_i_1_n_0 |                2 |              2 |         1.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[15]_i_1_n_0 |                1 |              2 |         2.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[9]_i_1_n_0  |                1 |              2 |         2.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[3]_i_1_n_0  |                2 |              2 |         1.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[7]_i_1_n_0  |                1 |              2 |         2.00 |
+|  clk_inst0/inst/clk_out1 | epp_data_r[15]_i_2_n_0 | epp_data_r[5]_i_1_n_0  |                2 |              2 |         1.00 |
+|  clk_inst0/inst/clk_out1 | cnt_a0                 | gdck_r_i_1_n_0         |                1 |              2 |         2.00 |
+|  clk_inst0/inst/clk_out1 |                        | cnt_a[8]_i_1_n_0       |                3 |              9 |         3.00 |
+|  clk_inst0/inst/clk_out1 | cnt_b                  | gdck_r_i_1_n_0         |                4 |             11 |         2.75 |
+|  clk_inst0/inst/clk_out1 | rom_y[10]_i_1_n_0      | gdck_r_i_1_n_0         |                5 |             11 |         2.20 |
+|  clk_inst0/inst/clk_out1 |                        |                        |              623 |           1912 |         3.07 |
++--------------------------+------------------------+------------------------+------------------+----------------+--------------+
+
+

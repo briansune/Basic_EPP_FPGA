@@ -1,0 +1,25 @@
+# do {tb_epp_basic_compile.do}
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 02:46:32 on Mar 19,2024
+# vlog -incr -work xil_defaultlib "+incdir+../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0" ../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v ../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v ../../../../epp_basic.v ../../../../tb_epp_basic.v 
+# -- Compiling module clk_wiz_0_clk_wiz
+# -- Compiling module clk_wiz_0
+# -- Compiling module epp_basic
+# -- Compiling module tb_epp_basic
+# 
+# Top level modules:
+# 	tb_epp_basic
+# End time: 02:46:32 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 02:46:32 on Mar 19,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 02:46:32 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

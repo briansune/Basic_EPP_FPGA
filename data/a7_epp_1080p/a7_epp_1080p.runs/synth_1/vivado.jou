@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 20 01:36:15 2024
+# Process ID: 9308
+# Current directory: G:/20240319_epp/a7_epp_1080p/a7_epp_1080p.runs/synth_1
+# Command line: vivado.exe -log epp_basic.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source epp_basic.tcl
+# Log file: G:/20240319_epp/a7_epp_1080p/a7_epp_1080p.runs/synth_1/epp_basic.vds
+# Journal file: G:/20240319_epp/a7_epp_1080p/a7_epp_1080p.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source epp_basic.tcl -notrace

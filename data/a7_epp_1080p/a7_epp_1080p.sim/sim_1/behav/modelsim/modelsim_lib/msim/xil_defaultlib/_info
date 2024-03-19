@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/20240319_epp/a7_epp_1080p/a7_epp_1080p.sim/sim_1/behav/modelsim
+T_opt
+!s110 1710843471
+VkQLeneQP0o4JZmUcPF[@j3
+04 12 4 work tb_epp_basic fast 0
+04 4 4 work glbl fast 0
+=9-2cf05d21b63b-65f9664e-3e2-19b04
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vclk_wiz_0
+Z2 !s110 1710787592
+!i10b 1
+!s100 >nDnB>f3=2a642kcG`z511
+Iz@?jE8dhXEE5I24mDOn2`1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1710782691
+8../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+L0 70
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1710787592.000000
+Z7 !s107 ../../../../tb_epp_basic.v|../../../../epp_basic.v|../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|
+Z8 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0|../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../epp_basic.v|../../../../tb_epp_basic.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -work xil_defaultlib +incdir+../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclk_wiz_0_clk_wiz
+R2
+!i10b 1
+!s100 IAT@U;>CmR^_4zMzOBW1Q1
+I2ZI<3<0R7^mLed?7OKehb2
+R3
+R0
+R4
+8../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+L0 68
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vepp_basic
+!s110 1710843468
+!i10b 1
+!s100 <W;JfkUefD[fgQGaca;R81
+IJkb`[mcA:IQ83l8P:?]ik0
+R3
+R0
+w1710843463
+8G:/20240319_epp/a7_epp_1080p/epp_basic.v
+FG:/20240319_epp/a7_epp_1080p/epp_basic.v
+L0 19
+R5
+r1
+!s85 0
+31
+!s108 1710843468.000000
+!s107 G:/20240319_epp/a7_epp_1080p/epp_basic.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|+incdir+../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|G:/20240319_epp/a7_epp_1080p/epp_basic.v|
+!i113 0
+R9
+R10
+R1
+vglbl
+R2
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+Ii@2]DfVnUU[WE=M5a<e[a3
+R3
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+L0 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R9
+R1
+vtb_epp_basic
+!s110 1710843469
+!i10b 1
+!s100 A0OJ=;aGPW?zZY`W4VRQo3
+I3n`kBmXZbR[]EHX3[9hkH2
+R3
+R0
+w1710787559
+8G:/20240319_epp/a7_epp_1080p/tb_epp_basic.v
+FG:/20240319_epp/a7_epp_1080p/tb_epp_basic.v
+L0 20
+R5
+r1
+!s85 0
+31
+!s108 1710843469.000000
+!s107 G:/20240319_epp/a7_epp_1080p/tb_epp_basic.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|+incdir+../../../../a7_epp_1080p.gen/sources_1/ip/clk_wiz_0|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|G:/20240319_epp/a7_epp_1080p/tb_epp_basic.v|
+!i113 0
+R9
+R10
+R1
